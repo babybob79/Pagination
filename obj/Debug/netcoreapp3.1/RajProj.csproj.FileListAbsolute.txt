@@ -473,3 +473,4 @@ C:\code\C#\Fork\Pagination\obj\Debug\netcoreapp3.1\staticwebassets\RajProj.Stati
 C:\code\C#\Fork\Pagination\obj\Debug\netcoreapp3.1\RajProj.dll
 C:\code\C#\Fork\Pagination\obj\Debug\netcoreapp3.1\RajProj.pdb
 C:\code\C#\Fork\Pagination\obj\Debug\netcoreapp3.1\RajProj.genruntimeconfig.cache
+C:\code\C#\Fork\Pagination\obj\Debug\netcoreapp3.1\RajProj.csprojAssemblyReference.cache

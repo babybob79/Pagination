@@ -28,7 +28,7 @@ namespace RajProj.ViewModels
         public int TotalPages { get; set; }
         public int PageId { get; set; }
         public int RowCount { get; set; }
-        private int MaxRows = 50;
+        private int MaxRows = 70;
         private DataTable dTable;
 
         //public MerchantInfoViewModel(MerchantService mService, IEventAggregator ea, Data.RajContext context)
@@ -183,7 +183,7 @@ namespace RajProj.ViewModels
             List<Merchant> filteredList = new List<Merchant>();
             CheckValidRow(pageId, rowCount);
             //assign default value to rowCount if rowCount over MaxRows
-            rowCount = rowCount > MaxRows ? 35 : rowCount;
+            rowCount = rowCount > MaxRows ? 45 : rowCount;
             //check for negative page and row
             if (pageId < 1 || rowCount < 1) 
             {
